@@ -2,8 +2,11 @@
 Disk cloning software for macOS Big Sur 11.5.2+
 ClonetoolX has officially reached Beta stage.
 
+This is designed to work with BigMac which creatse unsealed volumes for macOS 11 and 12. On normal installs, Apple creates sealed disks and this makes it hard to clone and do a restore with CloneToolX or ASR, Apple Software Restore.
+
 On a supported Mac this now works on macOS 11.5.2. 
-While the command line is not hard, CloneToolX with its GUI makes things way more simple.
+While the command line is not hard, CloneToolX with its GUI makes its easier. 
+
 
 #### Note: The current version does not support a helper agent for running as admin or root
 There are two workarounds for this. Open in Xcode. Go to Edit Scheme. Make sure it is set to root. Then run from Xcode.
